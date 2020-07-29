@@ -1,0 +1,486 @@
+[
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/layout_activity_all_test_tool.xml.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/layout/activity_all_test_tool.xml"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/drawable_tex10.png.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/drawable/tex10.png"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/layout_activity_native_express_banner.xml.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/layout/activity_native_express_banner.xml"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/layout_mopub_activity_adapter.xml.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/layout/mopub_activity_adapter.xml"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/mipmap-xhdpi_video13.png.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/mipmap-xhdpi/video13.png"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/drawable_tex5.png.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/drawable/tex5.png"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/layout_load_more_view.xml.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/layout/load_more_view.xml"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/drawable-xhdpi_ic_lock_charge_one.png.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/drawable-xhdpi/ic_lock_charge_one.png"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/drawable-hdpi_play_arrow.png.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/generated/res/pngs/debug/drawable-hdpi/play_arrow.png"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/drawable-xxhdpi_play_arrow.png.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/generated/res/pngs/debug/drawable-xxhdpi/play_arrow.png"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/layout_mopub_activity_banner_express.xml.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/layout/mopub_activity_banner_express.xml"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/drawable_btn_bg_blue.xml.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/drawable/btn_bg_blue.xml"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/drawable-mdpi_play_arrow.png.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/generated/res/pngs/debug/drawable-mdpi/play_arrow.png"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/layout_dlg_dislike_custom.xml.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/layout/dlg_dislike_custom.xml"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/mipmap-xhdpi_header_icon_2.jpeg.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/mipmap-xhdpi/header_icon_2.jpeg"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/drawable_circle_solid_main.xml.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/drawable/circle_solid_main.xml"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/layout_google_activity_banner_express.xml.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/layout/google_activity_banner_express.xml"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/drawable-xhdpi_ic_lock_charge_three.png.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/drawable-xhdpi/ic_lock_charge_three.png"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/mipmap-xhdpi_msg_icon.png.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/mipmap-xhdpi/msg_icon.png"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/drawable_circle_big_red.xml.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/drawable/circle_big_red.xml"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/mipmap-xhdpi_add_bg.png.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/mipmap-xhdpi/add_bg.png"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/drawable_tex4.png.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/drawable/tex4.png"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/drawable_tex11.png.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/drawable/tex11.png"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/raw_video11.mp4.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/raw/video11.mp4"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/drawable-xhdpi_ic_lock_logo.png.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/drawable-xhdpi/ic_lock_logo.png"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/mipmap-xhdpi_video12.png.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/mipmap-xhdpi/video12.png"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/raw_video_2.mp4.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/raw/video_2.mp4"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/layout_listitem_ad_download_btn_layout.xml.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/layout/listitem_ad_download_btn_layout.xml"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/drawable_splash_bg.xml.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/drawable/splash_bg.xml"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/layout_listitem_ad_large_pic.xml.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/layout/listitem_ad_large_pic.xml"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/layout_activity_locker.xml.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/layout/activity_locker.xml"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/drawable_cat.png.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/drawable/cat.png"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/layout_listitem_ad_large_video.xml.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/layout/listitem_ad_large_video.xml"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/drawable-xhdpi_ic_lock_cross_one.png.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/drawable-xhdpi/ic_lock_cross_one.png"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/layout_activity_native_express.xml.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/layout/activity_native_express.xml"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/drawable-ldpi_play_arrow.png.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/generated/res/pngs/debug/drawable-ldpi/play_arrow.png"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/layout_activity_draw_native_video.xml.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/layout/activity_draw_native_video.xml"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/mipmap-xhdpi_app_icon.png.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/mipmap-xhdpi/app_icon.png"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/drawable_tex7.png.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/drawable/tex7.png"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/layout_activity_native_waterfall.xml.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/layout/activity_native_waterfall.xml"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/drawable_lock_battery_charging_60.xml.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/drawable/lock_battery_charging_60.xml"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/drawable_lock_battery_charging_30.xml.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/drawable/lock_battery_charging_30.xml"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/mipmap-xhdpi_video11.png.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/mipmap-xhdpi/video11.png"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/layout_activity_splash.xml.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/layout/activity_splash.xml"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/drawable-xhdpi_ic_lock_charge_four.png.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/drawable-xhdpi/ic_lock_charge_four.png"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/mipmap-xhdpi_video14.png.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/mipmap-xhdpi/video14.png"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/layout_activity_all_express_ad.xml.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/layout/activity_all_express_ad.xml"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/layout_listitem_ad_title_creative_btn_layout.xml.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/layout/listitem_ad_title_creative_btn_layout.xml"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/raw_video13.mp4.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/raw/video13.mp4"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/layout_activity_full_screen_video.xml.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/layout/activity_full_screen_video.xml"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/layout_listitem_normal.xml.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/layout/listitem_normal.xml"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/layout_adapter_activity.xml.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/layout/adapter_activity.xml"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/layout_activity_feed_recycler.xml.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/layout/activity_feed_recycler.xml"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/drawable-xhdpi_ic_lock_icon.png.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/drawable-xhdpi/ic_lock_icon.png"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/drawable_btn_bg_blue_playable.xml.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/drawable/btn_bg_blue_playable.xml"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/layout_mopub_reward_activity.xml.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/layout/mopub_reward_activity.xml"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/mipmap-xhdpi_icon.png.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/mipmap-xhdpi/icon.png"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/mipmap-xhdpi_heart_icon.png.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/mipmap-xhdpi/heart_icon.png"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/mipmap-xhdpi_add_icon.png.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/mipmap-xhdpi/add_icon.png"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/layout_native_draw_action_item.xml.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/layout/native_draw_action_item.xml"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/layout_touch_to_unlock_view.xml.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/layout/touch_to_unlock_view.xml"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/mipmap-xhdpi_search_icon.png.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/mipmap-xhdpi/search_icon.png"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/layout_touch_pull_down_view.xml.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/layout/touch_pull_down_view.xml"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/layout_google_activity_adapter.xml.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/layout/google_activity_adapter.xml"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/drawable_tex9.png.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/drawable/tex9.png"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/layout_google_reward_activity.xml.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/layout/google_reward_activity.xml"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/layout_listitem_ad_small_pic.xml.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/layout/listitem_ad_small_pic.xml"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/xml_network_config.xml.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/xml/network_config.xml"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/layout_native_insert_ad_layout.xml.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/layout/native_insert_ad_layout.xml"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/drawable_tex13.png.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/drawable/tex13.png"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/layout_download_notification_layout_demo.xml.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/layout/download_notification_layout_demo.xml"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/layout_listitem_ad_native_express.xml.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/layout/listitem_ad_native_express.xml"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/raw_video14.mp4.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/raw/video14.mp4"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/layout_mopub_activity_interstitial_express.xml.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/layout/mopub_activity_interstitial_express.xml"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/drawable_tex2.png.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/drawable/tex2.png"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/layout_activity_playable.xml.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/layout/activity_playable.xml"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/drawable_btn_bg_creative.xml.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/drawable/btn_bg_creative.xml"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/layout_native_ad.xml.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/layout/native_ad.xml"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/mipmap-xhdpi_share_icon.png.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/mipmap-xhdpi/share_icon.png"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/drawable-xxxhdpi_play_arrow.png.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/generated/res/pngs/debug/drawable-xxxhdpi/play_arrow.png"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/drawable_tt_ad_cover_btn_begin_bg.xml.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/drawable/tt_ad_cover_btn_begin_bg.xml"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/drawable_call.png.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/drawable/call.png"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/layout_activity_banner.xml.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/layout/activity_banner.xml"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/layout_item_view_pager.xml.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/layout/item_view_pager.xml"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/drawable-xhdpi_play_arrow.png.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/generated/res/pngs/debug/drawable-xhdpi/play_arrow.png"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/layout_listitem_ad_group_pic.xml.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/layout/listitem_ad_group_pic.xml"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/layout_activity_ip_port_tool.xml.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/layout/activity_ip_port_tool.xml"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/drawable-xhdpi_common_lock_bg.jpg.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/drawable-xhdpi/common_lock_bg.jpg"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/drawable_tex14.png.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/drawable/tex14.png"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/drawable_tex1.png.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/drawable/tex1.png"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/xml_file_paths.xml.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/xml/file_paths.xml"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/drawable_common_sticker_header_bg_shape.xml.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/drawable/common_sticker_header_bg_shape.xml"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/layout_activity_native_express_intersitial.xml.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/layout/activity_native_express_intersitial.xml"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/drawable_tex8.png.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/drawable/tex8.png"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/drawable_tex3.png.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/drawable/tex3.png"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/drawable_lock_battery_charging_90.xml.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/drawable/lock_battery_charging_90.xml"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/layout_express_banner_list_item.xml.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/layout/express_banner_list_item.xml"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/drawable_btn_bg_red.xml.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/drawable/btn_bg_red.xml"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/layout_google_activity_interstitial_express.xml.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/layout/google_activity_interstitial_express.xml"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/raw_video12.mp4.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/raw/video12.mp4"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/drawable_tex15.png.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/drawable/tex15.png"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/drawable_downloadicon.png.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/drawable/downloadicon.png"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/layout_listitem_ad_vertical_pic.xml.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/layout/listitem_ad_vertical_pic.xml"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/layout_activity_native_express_listview.xml.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/layout/activity_native_express_listview.xml"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/drawable-xhdpi_splash_banner.png.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/drawable-xhdpi/splash_banner.png"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/drawable-anydpi-v21_play_arrow.xml.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/generated/res/pngs/debug/drawable-anydpi-v21/play_arrow.xml"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/layout_listitem_ad_icon_source_layout.xml.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/layout/listitem_ad_icon_source_layout.xml"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/layout_activity_insert_ad.xml.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/layout/activity_insert_ad.xml"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/drawable-xhdpi_ic_lock_setting.png.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/drawable-xhdpi/ic_lock_setting.png"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/drawable_border_input_box.xml.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/drawable/border_input_box.xml"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/drawable_tex6.png.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/drawable/tex6.png"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/mipmap-xhdpi_img_video_2.png.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/mipmap-xhdpi/img_video_2.png"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/drawable_tex0.png.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/drawable/tex0.png"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/layout_locker_setting_item.xml.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/layout/locker_setting_item.xml"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/drawable-xhdpi_dislike_icon.png.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/drawable-xhdpi/dislike_icon.png"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/layout_activity_reward_video.xml.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/layout/activity_reward_video.xml"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/drawable-xhdpi_ic_lock_charge_two.png.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/drawable-xhdpi/ic_lock_charge_two.png"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/layout_activity_feed_listview.xml.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/layout/activity_feed_listview.xml"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/drawable_tt_ad_cover_btn_draw_begin_bg.xml.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/drawable/tt_ad_cover_btn_draw_begin_bg.xml"
+    },
+    {
+        "merged": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/res/merged/debug/drawable_tex12.png.flat",
+        "source": "/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/res/drawable/tex12.png"
+    }
+]

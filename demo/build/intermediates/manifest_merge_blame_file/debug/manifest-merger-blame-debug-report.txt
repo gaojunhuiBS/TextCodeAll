@@ -1,0 +1,705 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.union_test.toutiao"
+4    android:versionCode="1"
+5    android:versionName="1.0" > <!-- minSdkVersion为9时的合并 -->
+6    <uses-sdk
+6-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:6:5-9:178
+7        android:minSdkVersion="14"
+7-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:6:5-9:178
+8        android:targetSdkVersion="27" />
+8-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:6:5-9:178
+9
+10    <!-- 必要权限 -->
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:12:5-67
+11-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:12:22-72
+12
+13    <!-- 可选权限 -->
+14    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+14-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:15:5-75
+14-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:15:22-73
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:16:5-79
+15-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:16:22-78
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:17:5-81
+16-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:17:22-80
+17    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+17-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:18:5-76
+17-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:18:22-65
+18    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+18-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:19:5-81
+18-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:19:22-65
+19    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+19-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:20:5-83
+19-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:20:5-83
+20    <!-- suppress DeprecatedClassUsageInspection -->
+21    <uses-permission android:name="android.permission.GET_TASKS" />
+21-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:22:5-68
+21-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:22:22-76
+22
+23    <!-- 如果有视频相关的广告且使用textureView播放，请务必添加，否则黑屏 -->
+24    <uses-permission android:name="android.permission.WAKE_LOCK" />
+24-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:25:5-68
+24-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:25:22-75
+25
+26    <!-- 可选，穿山甲提供“获取地理位置权限”和“不给予地理位置权限，开发者传入地理位置参数”两种方式上报用户位置，两种方式均可不选，添加位置权限或参数将帮助投放定位广告 -->
+27    <!-- 请注意：无论通过何种方式提供给穿山甲用户地理位置，均需向用户声明地理位置权限将应用于穿山甲广告投放，穿山甲不强制获取地理位置信息 -->
+28    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+28-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:23:5-29:79
+28-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:24:9-40
+29
+30    <!-- demo场景用到的权限，不是必须的 -->
+31    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
+31-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:31:9-32:79
+31-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:32:13-61
+32    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+32-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:30:9-33:78
+32-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:31:13-61
+33    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
+33-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:33:9-34:76
+33-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:34:13-50
+34    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+35    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+35-->[:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:11:5-81
+35-->[:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:11:22-78
+36    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+36-->[:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:13:5-95
+36-->[:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:13:22-92
+37
+38    <application
+38-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:42:9-195:19
+39        android:name="com.union_test.toutiao.DemoApplication"
+39-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:43:13-54
+40        android:allowBackup="true"
+40-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:42:9-195:19
+41        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+41-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:42:9-195:19
+42        android:debuggable="true"
+43        android:icon="@mipmap/app_icon"
+43-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:42:9-195:19
+44        android:label="@string/app_name"
+44-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:22:9-41
+45        android:networkSecurityConfig="@xml/network_config"
+45-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:42:9-195:19
+46        android:testOnly="true"
+47        android:theme="@style/Theme.Light.NoActionBar"
+47-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:76:13-48
+48        android:usesCleartextTraffic="true" >
+48-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:23:9-44
+49        <activity
+49-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:50:9-15
+50            android:name="com.union_test.toutiao.activity.NativeWaterfallActivity"
+50-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:50:9-15
+51            android:configChanges="keyboard|orientation|screenSize"
+51-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:50:9-15
+52            android:screenOrientation="portrait" />
+52-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:50:9-15
+53        <activity
+53-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:54:9-56:20
+54            android:name="com.union_test.toutiao.activity.MainActivity"
+54-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:55:13-58
+55            android:configChanges="keyboard|orientation|screenSize"
+55-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:56:13-68
+56            android:launchMode="singleTask"
+56-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:54:9-56:20
+57            android:screenOrientation="portrait" >
+57-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:54:9-56:20
+58        </activity>
+59        <activity
+59-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:58:9-60:52
+60            android:name="com.union_test.toutiao.activity.NativeBannerActivity"
+60-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:59:13-63
+61            android:configChanges="keyboard|orientation|screenSize"
+61-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:60:13-68
+62            android:screenOrientation="portrait" />
+62-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:58:9-60:52
+63        <activity
+63-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:62:9-64:52
+64            android:name="com.union_test.toutiao.activity.FeedListActivity"
+64-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:63:13-57
+65            android:configChanges="keyboard|orientation|screenSize"
+65-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:64:13-68
+66            android:screenOrientation="portrait" />
+66-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:62:9-64:52
+67        <activity
+67-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:67:9-68:52
+68            android:name="com.union_test.toutiao.activity.AllTestToolActivity"
+68-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:68:13-61
+69            android:configChanges="keyboard|orientation|screenSize"
+69-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:67:9-68:52
+70            android:screenOrientation="portrait" />
+70-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:67:9-68:52
+71        <activity
+71-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:71:9-72:52
+72            android:name="com.union_test.toutiao.activity.IpPortToolActivity"
+72-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:72:13-52
+73            android:configChanges="keyboard|orientation|screenSize"
+73-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:71:9-72:52
+74            android:screenOrientation="portrait" />
+74-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:71:9-72:52
+75        <activity
+75-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:76:17-52
+76            android:name="com.union_test.toutiao.activity.FeedRecyclerActivity"
+76-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:76:17-52
+77            android:configChanges="keyboard|orientation|screenSize"
+77-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:76:17-52
+78            android:screenOrientation="portrait" />
+78-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:76:17-52
+79        <activity
+79-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:79:9-80:52
+80            android:name="com.union_test.toutiao.activity.NativeInteractionActivity"
+80-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:79:9-80:52
+81            android:configChanges="keyboard|orientation|screenSize"
+81-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:79:9-80:52
+82            android:screenOrientation="portrait" />
+82-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:79:9-80:52
+83        <activity
+83-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:83:9-84:52
+84            android:name="com.union_test.toutiao.activity.RewardVideoActivity"
+84-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:84:13-68
+85            android:configChanges="keyboard|orientation|screenSize"
+85-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:83:9-84:52
+86            android:screenOrientation="portrait" />
+86-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:83:9-84:52
+87        <activity
+87-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:88:9-89:52
+88            android:name="com.union_test.toutiao.activity.FullScreenVideoActivity"
+88-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:89:13-59
+89            android:configChanges="keyboard|orientation|screenSize"
+89-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:88:9-89:52
+90            android:screenOrientation="portrait" />
+90-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:88:9-89:52
+91        <activity
+91-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:94:9-101:20
+92            android:name="com.union_test.toutiao.activity.SplashActivity"
+92-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:95:13-63
+93            android:configChanges="keyboard|orientation|screenSize"
+93-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:96:13-74
+94            android:screenOrientation="portrait"
+94-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:98:13-49
+95            android:theme="@style/Theme.Splash" >
+95-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:94:9-101:20
+96            <intent-filter>
+96-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:94:9-99:29
+97                <action android:name="android.intent.action.MAIN" />
+97-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:94:9-97:69
+97-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:95:13-63
+98
+99                <category android:name="android.intent.category.LAUNCHER" />
+99-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:97:9-98:77
+99-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:97:9-98:77
+100            </intent-filter>
+101        </activity>
+102        <activity
+102-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:106:9-108:20
+103            android:name="com.union_test.toutiao.activity.DrawNativeVideoActivity"
+103-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:107:13-70
+104            android:configChanges="keyboard|orientation|screenSize"
+104-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:106:9-108:20
+105            android:screenOrientation="portrait" >
+105-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:106:9-108:20
+106        </activity>
+107        <activity
+107-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:111:13-114:20
+108            android:name="com.union_test.toutiao.activity.DrawNativeExpressVideoActivity"
+108-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:112:17-67
+109            android:configChanges="keyboard|orientation|screenSize"
+109-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:111:13-114:20
+110            android:screenOrientation="portrait" >
+110-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:111:13-114:20
+111        </activity>
+112        <activity
+112-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:114:9-120:20
+113            android:name="com.union_test.toutiao.activity.NativeExpressActivity"
+113-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:115:13-80
+114            android:configChanges="keyboard|orientation|screenSize"
+114-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:114:9-120:20
+115            android:screenOrientation="portrait" >
+115-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:114:9-120:20
+116        </activity>
+117        <activity
+117-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:126:9-51
+118            android:name="com.union_test.toutiao.activity.NativeExpressListActivity"
+118-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:126:19-74
+119            android:configChanges="keyboardHidden|orientation|screenSize"
+119-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:126:9-51
+120            android:screenOrientation="portrait"
+120-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:126:9-51
+121            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+121-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:126:9-51
+122        <activity
+122-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:129:9-131:20
+123            android:name="com.union_test.toutiao.activity.InteractionExpressActivity"
+123-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:129:9-131:20
+124            android:configChanges="keyboard|orientation|screenSize"
+124-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:129:9-131:20
+125            android:screenOrientation="portrait" >
+125-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:129:9-131:20
+126        </activity>
+127        <activity
+127-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:130:9-137:20
+128            android:name="com.union_test.toutiao.activity.BannerExpressActivity"
+128-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:131:13-62
+129            android:configChanges="keyboard|orientation|screenSize"
+129-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:132:13-74
+130            android:screenOrientation="portrait" >
+130-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:134:13-49
+131        </activity>
+132
+133        <provider
+134            android:name="com.bytedance.sdk.openadsdk.TTFileProvider"
+134-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:143:19-80
+135            android:authorities="com.union_test.toutiao.TTFileProvider"
+135-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:143:9-147:20
+136            android:exported="false"
+136-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:143:9-147:20
+137            android:grantUriPermissions="true" >
+137-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:143:9-147:20
+138            <meta-data
+138-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:145:9-146:54
+139                android:name="android.support.FILE_PROVIDER_PATHS"
+139-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:146:13-67
+140                android:resource="@xml/file_paths" />
+140-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:145:9-146:54
+141        </provider>
+142        <provider
+143            android:name="com.bytedance.sdk.openadsdk.multipro.TTMultiProvider"
+143-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:152:9-40
+144            android:authorities="com.union_test.toutiao.TTMultiProvider"
+144-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:152:9-40
+145            android:exported="false" />
+145-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:152:9-40
+146
+147        <service android:name="com.union_test.toutiao.service.AppDownloadService" />
+147-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:152:9-154:63
+147-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:153:13-57
+148        <service android:name="com.locker.service.TraceService" />
+148-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:155:9-157:67
+148-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:156:13-61
+149        <service
+149-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:161:9-162:39
+150            android:name="com.locker.service.LockerService"
+150-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:162:13-69
+151            android:enabled="true"
+151-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:161:9-162:39
+152            android:exported="true" />
+152-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:161:9-162:39
+153
+154        <receiver android:name="com.locker.receiver.BootCompleteReceiver" >
+154-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:163:9-169:20
+154-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:164:13-72
+155            <intent-filter>
+155-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:163:9-168:29
+156                <action android:name="android.intent.action.BOOT_COMPLETED" />
+156-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:166:9-79
+156-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:166:19-94
+157
+158                <category android:name="android.intent.category.LAUNCHER" />
+158-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:97:9-98:77
+158-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:97:9-98:77
+159            </intent-filter>
+160        </receiver>
+161
+162        <activity
+162-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:178:1-73
+163            android:name="com.locker.activity.LockerActivity"
+163-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:178:1-73
+164            android:configChanges="keyboardHidden|orientation|screenSize"
+164-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:178:1-73
+165            android:hardwareAccelerated="true"
+165-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:178:1-73
+166            android:launchMode="singleTask"
+166-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:178:1-73
+167            android:screenOrientation="portrait"
+167-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:178:1-73
+168            android:theme="@style/common_locker_screen"
+168-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:178:1-73
+169            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+169-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:178:1-73
+170        <activity
+170-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:183:9-15
+171            android:name="com.union_test.toutiao.activity.PlayableToolActivity"
+171-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:183:9-15
+172            android:configChanges="keyboardHidden|orientation|screenSize"
+172-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:183:9-15
+173            android:launchMode="singleTask"
+173-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:183:9-15
+174            android:screenOrientation="portrait" />
+174-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:183:9-15
+175        <activity android:name="com.mopub.actiivity.MopubRewardedVideoActivity" />
+175-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:182:9-184:83
+175-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:183:13-58
+176        <activity android:name="com.mopub.actiivity.MopubFullVideoActivity" />
+176-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:185:1-79
+176-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:185:1-79
+177        <activity
+177-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:185:1-75
+178            android:name="com.mopub.actiivity.MopubBannerActivity"
+178-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:185:1-75
+179            android:configChanges="keyboardHidden|orientation|screenSize"
+179-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:185:1-75
+180            android:screenOrientation="portrait"
+180-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:185:1-75
+181            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+181-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:185:1-75
+182        <activity android:name="com.mopub.actiivity.MopubInterstitialActivity" />
+182-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:185:1-82
+182-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:185:1-82
+183        <activity android:name="com.union_test.toutiao.activity.AdapterMopubActivity" >
+183-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:185:5-187:20
+183-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:185:5-187:20
+184        </activity>
+185
+186        <!-- MoPubBrowser adapter -->
+187        <activity
+187-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:187:1-77
+188            android:name="com.mopub.common.MoPubBrowser"
+188-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:187:1-77
+189            android:configChanges="keyboardHidden|orientation|screenSize" />
+189-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:187:1-77
+190        <activity
+190-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:187:1-77
+191            android:name="com.mopub.mobileads.MoPubActivity"
+191-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:187:1-77
+192            android:configChanges="keyboardHidden|orientation|screenSize" />
+192-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:187:1-77
+193        <activity
+193-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:187:1-77
+194            android:name="com.mopub.mobileads.MraidActivity"
+194-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:187:1-77
+195            android:configChanges="keyboardHidden|orientation|screenSize" />
+195-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:187:1-77
+196        <activity
+196-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:187:1-77
+197            android:name="com.mopub.mobileads.RewardedMraidActivity"
+197-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:187:1-77
+198            android:configChanges="keyboardHidden|orientation|screenSize" />
+198-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:187:1-77
+199        <activity
+199-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:187:1-77
+200            android:name="com.mopub.mobileads.MraidVideoPlayerActivity"
+200-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:187:1-77
+201            android:configChanges="keyboardHidden|orientation|screenSize" />
+201-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:187:1-77
+202        <activity android:name="com.google.ads.mediation.sample.activity.AdmobBannerActivity" />
+202-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:187:1-97
+202-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:187:1-97
+203        <activity android:name="com.google.ads.mediation.sample.activity.AdmobInterstitialActivity" />
+203-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:187:1-103
+203-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:187:1-103
+204        <activity android:name="com.google.ads.mediation.sample.activity.AdmobFullVideoActivity" />
+204-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:187:1-100
+204-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:187:1-100
+205        <activity android:name="com.union_test.toutiao.activity.AdapterGoogleMainActivity" />
+205-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:184:9-189:72
+205-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:185:13-58
+206        <activity android:name="com.union_test.toutiao.activity.AdapterActivity" />
+206-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:189:1-62
+206-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:189:1-62
+207        <activity android:name="com.google.ads.mediation.sample.activity.AdmobRewardVideoActivity" />
+207-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:189:1-102
+207-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:189:1-102
+208        <activity android:name="com.union_test.toutiao.activity.AllExpressAdActivity" />
+208-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:187:9-192:67
+208-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:188:13-58
+209
+210        <!-- Sample AdMob App ID: ca-app-pub-3000639232404350~2520092023 -->
+211        <!-- <meta-data -->
+212        <!-- android:name="com.google.android.gms.ads.APPLICATION_ID" -->
+213        <!-- android:value="ca-app-pub-2547387438729744~9596900917"/> -->
+214        <meta-data
+214-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:195:1-69
+215            android:name="com.google.android.gms.ads.APPLICATION_ID"
+215-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:195:1-69
+216            android:value="ca-app-pub-2547387438729744~9596900917" />
+216-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:195:1-69
+217
+218        <!-- This meta-data tag is required to use Google Play Services. -->
+219        <meta-data
+219-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:195:1-69
+220            android:name="com.google.android.gms.version"
+220-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:195:1-69
+221            android:value="@integer/google_play_services_version" />
+221-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:195:1-69
+222
+223        <service android:name="com.ss.android.socialbase.downloader.notification.DownloadNotificationService" />
+223-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:24:9-113
+223-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:24:18-110
+224        <service android:name="com.ss.android.socialbase.downloader.downloader.DownloadService" />
+224-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:25:9-99
+224-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:25:18-96
+225        <service
+225-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:26:9-32:19
+226            android:name="com.ss.android.socialbase.downloader.downloader.IndependentProcessDownloadService"
+226-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:27:13-109
+227            android:process=":downloader" >
+227-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:28:13-42
+228            <intent-filter>
+228-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:29:13-31:29
+229                <action android:name="com.ss.android.socialbase.downloader.remote" />
+229-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:30:17-86
+229-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:30:25-83
+230            </intent-filter>
+231        </service>
+232        <service android:name="com.ss.android.socialbase.downloader.impls.DownloadHandleService" /> <!-- <receiver android:name="com.ss.android.socialbase.downloader.downloader.DownloadReceiver"> -->
+232-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:33:9-100
+232-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:33:18-97
+233        <!-- <intent-filter> -->
+234        <!-- <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/> -->
+235        <!-- </intent-filter> -->
+236        <!-- </receiver> -->
+237        <service
+237-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:41:9-45:72
+238            android:name="com.ss.android.socialbase.downloader.impls.RetryJobSchedulerService"
+238-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:42:13-95
+239            android:enabled="true"
+239-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:43:13-35
+240            android:exported="true"
+240-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:44:13-36
+241            android:permission="android.permission.BIND_JOB_SERVICE" /> <!-- 数据库更新service -->
+241-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:45:13-69
+242        <service android:name="com.ss.android.socialbase.downloader.downloader.SqlDownloadCacheService" /> <!-- APP DOWNLOADER START -->
+242-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:47:9-107
+242-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:47:18-104
+243        <service android:name="com.ss.android.socialbase.appdownloader.DownloadHandlerService" /> <!-- <receiver android:name="com.ss.android.socialbase.appdownloader.DownloadReceiver"> -->
+243-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:49:9-98
+243-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:49:18-95
+244        <!-- <intent-filter> -->
+245        <!-- <action android:name="android.intent.action.BOOT_COMPLETED"/> -->
+246        <!-- <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/> -->
+247        <!-- <action android:name="android.ss.intent.action.DOWNLOAD_COMPLETE"/> -->
+248        <!-- </intent-filter> -->
+249        <!-- <intent-filter> -->
+250        <!-- <action android:name="android.intent.action.PACKAGE_ADDED"/> -->
+251        <!-- <action android:name="android.intent.action.PACKAGE_REPLACED"/> -->
+252        <!-- <data android:scheme="package"/> -->
+253        <!-- </intent-filter> -->
+254        <!-- <intent-filter> -->
+255        <!-- <action android:name="android.intent.action.MEDIA_MOUNTED"/> -->
+256        <!-- <data android:scheme="file"/> -->
+257        <!-- </intent-filter> -->
+258        <!-- </receiver> -->
+259        <activity
+259-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:65:9-68:59
+260            android:name="com.ss.android.socialbase.appdownloader.view.DownloadTaskDeleteActivity"
+260-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:66:13-99
+261            android:launchMode="singleTask"
+261-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:67:13-44
+262            android:theme="@android:style/Theme.Dialog" />
+262-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:68:13-56
+263        <activity
+263-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:69:9-72:59
+264            android:name="com.ss.android.socialbase.appdownloader.view.JumpUnknownSourceActivity"
+264-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:70:13-98
+265            android:launchMode="singleTask"
+265-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:71:13-44
+266            android:theme="@android:style/Theme.Dialog" />
+266-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:72:13-56
+267        <activity
+267-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:73:9-76:75
+268            android:name="com.ss.android.downloadlib.activity.TTDelegateActivity"
+268-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:74:13-82
+269            android:launchMode="singleTask"
+269-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:75:13-44
+270            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+270-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:76:13-72
+271
+272        <receiver android:name="com.ss.android.downloadlib.core.download.DownloadReceiver" /> <!-- 下面的activity和service必须注册 -->
+272-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:78:9-94
+272-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:78:19-91
+273        <activity
+273-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:79:9-83:57
+274            android:name="com.bytedance.sdk.openadsdk.activity.TTWebPageActivity"
+274-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:80:13-82
+275            android:configChanges="keyboardHidden|orientation|screenSize"
+275-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:81:13-74
+276            android:launchMode="standard"
+276-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:82:13-42
+277            android:windowSoftInputMode="stateHidden" />
+277-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:83:13-54
+278        <activity
+278-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:84:9-88:57
+279            android:name="com.bytedance.sdk.openadsdk.activity.TTPlayableWebPageActivity"
+279-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:85:13-90
+280            android:configChanges="keyboardHidden|orientation|screenSize"
+280-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:86:13-74
+281            android:launchMode="standard"
+281-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:87:13-42
+282            android:windowSoftInputMode="stateHidden" />
+282-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:88:13-54
+283        <activity
+283-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:89:9-93:57
+284            android:name="com.bytedance.sdk.openadsdk.activity.TTVideoWebPageActivity"
+284-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:90:13-87
+285            android:configChanges="keyboardHidden|orientation|screenSize"
+285-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:91:13-74
+286            android:launchMode="standard"
+286-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:92:13-42
+287            android:windowSoftInputMode="stateHidden" />
+287-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:93:13-54
+288        <activity
+288-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:94:9-97:45
+289            android:name="com.bytedance.sdk.openadsdk.activity.TTRewardVideoActivity"
+289-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:95:13-86
+290            android:configChanges="keyboardHidden|orientation|screenSize"
+290-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:96:13-74
+291            android:launchMode="standard" />
+291-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:97:13-42
+292        <activity
+292-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:98:9-101:45
+293            android:name="com.bytedance.sdk.openadsdk.activity.TTRewardExpressVideoActivity"
+293-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:99:13-93
+294            android:configChanges="keyboardHidden|orientation|screenSize"
+294-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:100:13-74
+295            android:launchMode="standard" />
+295-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:101:13-42
+296        <activity
+296-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:102:9-105:45
+297            android:name="com.bytedance.sdk.openadsdk.activity.TTFullScreenVideoActivity"
+297-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:103:13-90
+298            android:configChanges="keyboardHidden|orientation|screenSize"
+298-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:104:13-74
+299            android:launchMode="standard" />
+299-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:105:13-42
+300        <activity
+300-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:106:9-109:45
+301            android:name="com.bytedance.sdk.openadsdk.activity.TTFullScreenExpressVideoActivity"
+301-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:107:13-97
+302            android:configChanges="keyboardHidden|orientation|screenSize"
+302-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:108:13-74
+303            android:launchMode="standard" />
+303-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:109:13-42
+304        <activity
+304-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:110:9-113:75
+305            android:name="com.bytedance.sdk.openadsdk.activity.TTDelegateActivity"
+305-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:111:13-83
+306            android:launchMode="singleTask"
+306-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:112:13-44
+307            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+307-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:113:13-72
+308
+309        <service android:name="com.bytedance.sdk.openadsdk.multipro.aidl.BinderPoolService" />
+309-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:115:9-95
+309-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:115:18-92
+310
+311        <receiver
+311-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:117:9-120:39
+312            android:name="com.bytedance.embedapplog.collector.Collector"
+312-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:118:13-73
+313            android:enabled="true"
+313-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:119:13-35
+314            android:exported="true" />
+314-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:120:13-36
+315
+316        <service
+316-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:122:9-124:39
+317            android:name="com.bytedance.tea.crash.upload.CrashUploadService"
+317-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:123:13-77
+318            android:process=":npth" />
+318-->[:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:124:13-36
+319
+320        <receiver
+320-->[:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:16:9-25:20
+321            android:name="com.xdandroid.hellodaemon.WakeUpReceiver"
+321-->[:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:17:13-68
+322            android:process=":watch" >
+322-->[:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:18:13-37
+323            <intent-filter>
+323-->[:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:19:13-24:29
+324                <action android:name="android.intent.action.USER_PRESENT" />
+324-->[:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:20:17-77
+324-->[:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:20:25-74
+325                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+325-->[:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:21:17-87
+325-->[:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:21:25-84
+326                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+326-->[:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:22:17-90
+326-->[:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:22:25-87
+327                <action android:name="com.xdandroid.hellodaemon.CANCEL_JOB_ALARM_SUB" />
+327-->[:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:23:17-89
+327-->[:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:23:25-86
+328            </intent-filter>
+329        </receiver>
+330        <receiver
+330-->[:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:26:9-39:20
+331            android:name="com.xdandroid.hellodaemon.WakeUpReceiver$WakeUpAutoStartReceiver"
+331-->[:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:27:13-92
+332            android:process=":watch" >
+332-->[:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:28:13-37
+333            <intent-filter>
+333-->[:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:29:13-32:29
+334                <action android:name="android.intent.action.BOOT_COMPLETED" />
+334-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:166:9-79
+334-->/Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:166:19-94
+335                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+335-->[:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:31:17-79
+335-->[:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:31:25-76
+336            </intent-filter>
+337            <intent-filter>
+337-->[:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:33:13-38:29
+338                <action android:name="android.intent.action.PACKAGE_ADDED" />
+338-->[:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:34:17-78
+338-->[:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:34:25-75
+339                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+339-->[:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:35:17-80
+339-->[:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:35:25-77
+340
+341                <data android:scheme="package" />
+341-->[:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:37:17-50
+341-->[:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:37:23-47
+342            </intent-filter>
+343        </receiver>
+344
+345        <service android:name="com.xdandroid.hellodaemon.AbsWorkService$WorkNotificationService" />
+345-->[:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:41:9-100
+345-->[:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:41:18-97
+346        <service
+346-->[:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:42:9-47:40
+347            android:name="com.xdandroid.hellodaemon.JobSchedulerService"
+347-->[:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:43:13-73
+348            android:enabled="true"
+348-->[:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:44:13-35
+349            android:exported="true"
+349-->[:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:45:13-36
+350            android:permission="android.permission.BIND_JOB_SERVICE"
+350-->[:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:46:13-69
+351            android:process=":watch" />
+351-->[:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:47:13-37
+352        <service
+352-->[:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:48:9-50:40
+353            android:name="com.xdandroid.hellodaemon.WatchDogService"
+353-->[:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:49:13-69
+354            android:process=":watch" />
+354-->[:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:50:13-37
+355        <service
+355-->[:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:51:9-53:40
+356            android:name="com.xdandroid.hellodaemon.WatchDogService$WatchDogNotificationService"
+356-->[:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:52:13-97
+357            android:process=":watch" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+357-->[:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:53:13-37
+358        <activity
+358-->[:play-services-ads-lite-17.2.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/7d3540de93d219e2c4132f5203b04324/jetified-play-services-ads-lite-17.2.0/AndroidManifest.xml:29:9-33:64
+359            android:name="com.google.android.gms.ads.AdActivity"
+359-->[:play-services-ads-lite-17.2.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/7d3540de93d219e2c4132f5203b04324/jetified-play-services-ads-lite-17.2.0/AndroidManifest.xml:30:13-65
+360            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+360-->[:play-services-ads-lite-17.2.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/7d3540de93d219e2c4132f5203b04324/jetified-play-services-ads-lite-17.2.0/AndroidManifest.xml:31:13-122
+361            android:exported="false"
+361-->[:play-services-ads-lite-17.2.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/7d3540de93d219e2c4132f5203b04324/jetified-play-services-ads-lite-17.2.0/AndroidManifest.xml:32:13-37
+362            android:theme="@android:style/Theme.Translucent" />
+362-->[:play-services-ads-lite-17.2.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/7d3540de93d219e2c4132f5203b04324/jetified-play-services-ads-lite-17.2.0/AndroidManifest.xml:33:13-61
+363
+364        <provider
+364-->[:play-services-ads-lite-17.2.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/7d3540de93d219e2c4132f5203b04324/jetified-play-services-ads-lite-17.2.0/AndroidManifest.xml:35:9-39:39
+365            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+365-->[:play-services-ads-lite-17.2.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/7d3540de93d219e2c4132f5203b04324/jetified-play-services-ads-lite-17.2.0/AndroidManifest.xml:36:13-76
+366            android:authorities="com.union_test.toutiao.mobileadsinitprovider"
+366-->[:play-services-ads-lite-17.2.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/7d3540de93d219e2c4132f5203b04324/jetified-play-services-ads-lite-17.2.0/AndroidManifest.xml:37:13-73
+367            android:exported="false"
+367-->[:play-services-ads-lite-17.2.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/7d3540de93d219e2c4132f5203b04324/jetified-play-services-ads-lite-17.2.0/AndroidManifest.xml:38:13-37
+368            android:initOrder="100" />
+368-->[:play-services-ads-lite-17.2.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/7d3540de93d219e2c4132f5203b04324/jetified-play-services-ads-lite-17.2.0/AndroidManifest.xml:39:13-36
+369    </application>
+370
+371</manifest>

@@ -1,0 +1,908 @@
+-- Merging decision tree log ---
+provider#com.bytedance.sdk.openadsdk.TTFileProvider
+INJECTED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:143:9-147:20
+	android:grantUriPermissions
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:143:9-147:20
+	android:authorities
+		INJECTED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:143:9-147:20
+	android:exported
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:143:9-147:20
+	android:name
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:143:19-80
+provider#com.bytedance.sdk.openadsdk.multipro.TTMultiProvider
+INJECTED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:152:9-40
+	android:authorities
+		INJECTED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:152:9-40
+	android:exported
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:152:9-40
+	android:name
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:152:9-40
+manifest
+ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:2:1-198:12
+INJECTED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:2:1-198:12
+INJECTED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:2:1-198:12
+INJECTED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:2:1-198:12
+MERGED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:2:1-127:12
+MERGED from [:circleimageview-2.2.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/d84f64b3526b5be6d97c0666b962bf5b/jetified-circleimageview-2.2.0/AndroidManifest.xml:2:1-11:12
+MERGED from [:LayoutManagerGroup:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/7e808aa66b75b2ff976af09827971c37/jetified-LayoutManagerGroup/AndroidManifest.xml:2:1-11:12
+MERGED from [:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:2:1-56:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/543f9369b384053891badd41631a6b14/jetified-rxandroid-2.0.1/AndroidManifest.xml:15:1-21:12
+MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/161239eab85e2a7cfb052b6490510d65/appcompat-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/3e3f0bfe644638d1e4f2077832313478/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/96a74397ef92494db228d7cf06cc6e9f/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/7ae4a4bdb6bf07b779fd260e46c47638/fragment-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/b87ff7ff0aa242f6b1fc9e83d2c92ebf/vectordrawable-animated-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/ea5cc53a4c0fcd6f7b577606e0866f8c/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/3c7c20feb3b980d9a77692ebe9454bae/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/738ab6126dd001c985126c4226b21e6e/vectordrawable-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/13ec772b2a549fa2e056ca3685a4747b/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/ca5a9502cec0e083550aa68eca95ec74/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/04c94a1e7cecc3639be07ee7f25b855e/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/e377f562252c54c456415c94c3b7814f/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/cfd36d373bdd98f673d73f1567426fdc/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f30bb8e1a65b3200a5c6bfc99cf75072/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/9185af937948e70e6273b8b7c146a0fd/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/81b0807f7773a49fb780228f6df8df22/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/3195c467cfaa694381d129a12a64f370/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/86c0f73367f9e8eb0b08b1e1263d56f9/core-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/2060ee000b9181259ae6df3ad6c122b2/versionedparcelable-1.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/2b6c40ebf3a7527b5521abceeab31967/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/8f26f1c3202728cf34cd8df7348def0e/lifecycle-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/44f5de66e7b03ecbd5e6c3b2b34a75b7/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/3d9224abbe3544e52b48ba24015a43aa/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/7f965f507d38b4c2f90b65950242b04b/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/fc92cff546c43fd5e6ae30418078fee8/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/c7f0935e7d55a72aff026eb580088845/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/2d29ced361eea5fffbed9fb556d155f6/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/7b6a609d802835fa1dbcb0f2ef1fd224/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/32cfe830593faf8eb29c36fbfd3bcefd/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.squareup.leakcanary:leakcanary-android-no-op:1.5.4] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/7342e4dbf7d5874b25c5253848c4ace2/jetified-leakcanary-android-no-op-1.5.4/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/54e09f873e6f6ad0b2ad03dff3cc94fb/multidex-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [:mopub-sdk-base-5.8.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/a913959bc869901f8b723d346fb51108/jetified-mopub-sdk-base-5.8.0/AndroidManifest.xml:2:1-13:12
+MERGED from [:mopub-sdk-banner-5.8.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/34624b445c16ca113c6cae1317136258/jetified-mopub-sdk-banner-5.8.0/AndroidManifest.xml:2:1-13:12
+MERGED from [:mopub-sdk-interstitial-5.8.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/e5255876d7f3c371213f331176ffb764/jetified-mopub-sdk-interstitial-5.8.0/AndroidManifest.xml:2:1-13:12
+MERGED from [:mopub-sdk-rewardedvideo-5.8.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/ee8bbba2a57226eace1b57f56c5f4693/jetified-mopub-sdk-rewardedvideo-5.8.0/AndroidManifest.xml:2:1-13:12
+MERGED from [:play-services-ads-17.2.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/c2edb47739ab4e4ee47a6411e662a7c7/jetified-play-services-ads-17.2.0/AndroidManifest.xml:17:1-25:12
+MERGED from [:play-services-ads-base-17.2.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/384b9285bd3b8d7c76da548087df79fd/jetified-play-services-ads-base-17.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [:play-services-ads-identifier-16.0.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/85b6aee654e6d8c559424f0e541637d0/jetified-play-services-ads-identifier-16.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [:play-services-ads-lite-17.2.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/7d3540de93d219e2c4132f5203b04324/jetified-play-services-ads-lite-17.2.0/AndroidManifest.xml:17:1-42:12
+MERGED from [:play-services-basement-16.0.1:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/23e46b961e837bf1e3e0d8338b6363ae/jetified-play-services-basement-16.0.1/AndroidManifest.xml:17:1-28:12
+MERGED from [:play-services-gass-17.2.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/dd7c931a1e493e6c43ca457ab138996c/jetified-play-services-gass-17.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [:play-services-measurement-base-16.3.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/a7c37b074a80a215e39f961c9ca46f63/jetified-play-services-measurement-base-16.3.0/AndroidManifest.xml:2:1-9:12
+MERGED from [:play-services-measurement-sdk-api-16.3.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/087da12218569981f60c7298c6d40ae4/jetified-play-services-measurement-sdk-api-16.3.0/AndroidManifest.xml:17:1-30:12
+INJECTED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:2:1-198:12
+INJECTED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:2:1-198:12
+INJECTED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:2:1-198:12
+	package
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:4:5-37
+		INJECTED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml
+		INJECTED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:2:1-198:12
+		INJECTED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:2:1-198:12
+		INJECTED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:6:5-9:178
+INJECTED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:6:5-9:178
+INJECTED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:6:5-9:178
+MERGED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:8:5-11:591
+MERGED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:8:5-11:591
+MERGED from [:circleimageview-2.2.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/d84f64b3526b5be6d97c0666b962bf5b/jetified-circleimageview-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [:circleimageview-2.2.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/d84f64b3526b5be6d97c0666b962bf5b/jetified-circleimageview-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [:LayoutManagerGroup:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/7e808aa66b75b2ff976af09827971c37/jetified-LayoutManagerGroup/AndroidManifest.xml:7:5-9:41
+MERGED from [:LayoutManagerGroup:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/7e808aa66b75b2ff976af09827971c37/jetified-LayoutManagerGroup/AndroidManifest.xml:7:5-9:41
+MERGED from [:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:7:5-9:41
+MERGED from [:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:7:5-9:41
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/543f9369b384053891badd41631a6b14/jetified-rxandroid-2.0.1/AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/543f9369b384053891badd41631a6b14/jetified-rxandroid-2.0.1/AndroidManifest.xml:19:5-43
+MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/161239eab85e2a7cfb052b6490510d65/appcompat-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/161239eab85e2a7cfb052b6490510d65/appcompat-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/3e3f0bfe644638d1e4f2077832313478/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/3e3f0bfe644638d1e4f2077832313478/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/96a74397ef92494db228d7cf06cc6e9f/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/96a74397ef92494db228d7cf06cc6e9f/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/7ae4a4bdb6bf07b779fd260e46c47638/fragment-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/7ae4a4bdb6bf07b779fd260e46c47638/fragment-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/b87ff7ff0aa242f6b1fc9e83d2c92ebf/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/b87ff7ff0aa242f6b1fc9e83d2c92ebf/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/ea5cc53a4c0fcd6f7b577606e0866f8c/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/ea5cc53a4c0fcd6f7b577606e0866f8c/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/3c7c20feb3b980d9a77692ebe9454bae/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/3c7c20feb3b980d9a77692ebe9454bae/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/738ab6126dd001c985126c4226b21e6e/vectordrawable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/738ab6126dd001c985126c4226b21e6e/vectordrawable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/13ec772b2a549fa2e056ca3685a4747b/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/13ec772b2a549fa2e056ca3685a4747b/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/ca5a9502cec0e083550aa68eca95ec74/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/ca5a9502cec0e083550aa68eca95ec74/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/04c94a1e7cecc3639be07ee7f25b855e/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/04c94a1e7cecc3639be07ee7f25b855e/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/e377f562252c54c456415c94c3b7814f/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/e377f562252c54c456415c94c3b7814f/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/cfd36d373bdd98f673d73f1567426fdc/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/cfd36d373bdd98f673d73f1567426fdc/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f30bb8e1a65b3200a5c6bfc99cf75072/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f30bb8e1a65b3200a5c6bfc99cf75072/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/9185af937948e70e6273b8b7c146a0fd/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/9185af937948e70e6273b8b7c146a0fd/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/81b0807f7773a49fb780228f6df8df22/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/81b0807f7773a49fb780228f6df8df22/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/3195c467cfaa694381d129a12a64f370/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/3195c467cfaa694381d129a12a64f370/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/86c0f73367f9e8eb0b08b1e1263d56f9/core-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/86c0f73367f9e8eb0b08b1e1263d56f9/core-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/2060ee000b9181259ae6df3ad6c122b2/versionedparcelable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/2060ee000b9181259ae6df3ad6c122b2/versionedparcelable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/2b6c40ebf3a7527b5521abceeab31967/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/2b6c40ebf3a7527b5521abceeab31967/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/8f26f1c3202728cf34cd8df7348def0e/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/8f26f1c3202728cf34cd8df7348def0e/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/44f5de66e7b03ecbd5e6c3b2b34a75b7/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/44f5de66e7b03ecbd5e6c3b2b34a75b7/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/3d9224abbe3544e52b48ba24015a43aa/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/3d9224abbe3544e52b48ba24015a43aa/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/7f965f507d38b4c2f90b65950242b04b/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/7f965f507d38b4c2f90b65950242b04b/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/fc92cff546c43fd5e6ae30418078fee8/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/fc92cff546c43fd5e6ae30418078fee8/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/c7f0935e7d55a72aff026eb580088845/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/c7f0935e7d55a72aff026eb580088845/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/2d29ced361eea5fffbed9fb556d155f6/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/2d29ced361eea5fffbed9fb556d155f6/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/7b6a609d802835fa1dbcb0f2ef1fd224/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/7b6a609d802835fa1dbcb0f2ef1fd224/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/32cfe830593faf8eb29c36fbfd3bcefd/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/32cfe830593faf8eb29c36fbfd3bcefd/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-android-no-op:1.5.4] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/7342e4dbf7d5874b25c5253848c4ace2/jetified-leakcanary-android-no-op-1.5.4/AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-android-no-op:1.5.4] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/7342e4dbf7d5874b25c5253848c4ace2/jetified-leakcanary-android-no-op-1.5.4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/54e09f873e6f6ad0b2ad03dff3cc94fb/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/54e09f873e6f6ad0b2ad03dff3cc94fb/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [:mopub-sdk-base-5.8.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/a913959bc869901f8b723d346fb51108/jetified-mopub-sdk-base-5.8.0/AndroidManifest.xml:7:5-9:41
+MERGED from [:mopub-sdk-base-5.8.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/a913959bc869901f8b723d346fb51108/jetified-mopub-sdk-base-5.8.0/AndroidManifest.xml:7:5-9:41
+MERGED from [:mopub-sdk-banner-5.8.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/34624b445c16ca113c6cae1317136258/jetified-mopub-sdk-banner-5.8.0/AndroidManifest.xml:7:5-9:41
+MERGED from [:mopub-sdk-banner-5.8.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/34624b445c16ca113c6cae1317136258/jetified-mopub-sdk-banner-5.8.0/AndroidManifest.xml:7:5-9:41
+MERGED from [:mopub-sdk-interstitial-5.8.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/e5255876d7f3c371213f331176ffb764/jetified-mopub-sdk-interstitial-5.8.0/AndroidManifest.xml:7:5-9:41
+MERGED from [:mopub-sdk-interstitial-5.8.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/e5255876d7f3c371213f331176ffb764/jetified-mopub-sdk-interstitial-5.8.0/AndroidManifest.xml:7:5-9:41
+MERGED from [:mopub-sdk-rewardedvideo-5.8.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/ee8bbba2a57226eace1b57f56c5f4693/jetified-mopub-sdk-rewardedvideo-5.8.0/AndroidManifest.xml:7:5-9:41
+MERGED from [:mopub-sdk-rewardedvideo-5.8.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/ee8bbba2a57226eace1b57f56c5f4693/jetified-mopub-sdk-rewardedvideo-5.8.0/AndroidManifest.xml:7:5-9:41
+MERGED from [:play-services-ads-17.2.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/c2edb47739ab4e4ee47a6411e662a7c7/jetified-play-services-ads-17.2.0/AndroidManifest.xml:21:5-23:52
+MERGED from [:play-services-ads-17.2.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/c2edb47739ab4e4ee47a6411e662a7c7/jetified-play-services-ads-17.2.0/AndroidManifest.xml:21:5-23:52
+MERGED from [:play-services-ads-base-17.2.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/384b9285bd3b8d7c76da548087df79fd/jetified-play-services-ads-base-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [:play-services-ads-base-17.2.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/384b9285bd3b8d7c76da548087df79fd/jetified-play-services-ads-base-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [:play-services-ads-identifier-16.0.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/85b6aee654e6d8c559424f0e541637d0/jetified-play-services-ads-identifier-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [:play-services-ads-identifier-16.0.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/85b6aee654e6d8c559424f0e541637d0/jetified-play-services-ads-identifier-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [:play-services-ads-lite-17.2.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/7d3540de93d219e2c4132f5203b04324/jetified-play-services-ads-lite-17.2.0/AndroidManifest.xml:20:5-44
+MERGED from [:play-services-ads-lite-17.2.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/7d3540de93d219e2c4132f5203b04324/jetified-play-services-ads-lite-17.2.0/AndroidManifest.xml:20:5-44
+MERGED from [:play-services-basement-16.0.1:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/23e46b961e837bf1e3e0d8338b6363ae/jetified-play-services-basement-16.0.1/AndroidManifest.xml:20:5-44
+MERGED from [:play-services-basement-16.0.1:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/23e46b961e837bf1e3e0d8338b6363ae/jetified-play-services-basement-16.0.1/AndroidManifest.xml:20:5-44
+MERGED from [:play-services-gass-17.2.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/dd7c931a1e493e6c43ca457ab138996c/jetified-play-services-gass-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [:play-services-gass-17.2.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/dd7c931a1e493e6c43ca457ab138996c/jetified-play-services-gass-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [:play-services-measurement-base-16.3.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/a7c37b074a80a215e39f961c9ca46f63/jetified-play-services-measurement-base-16.3.0/AndroidManifest.xml:5:5-44
+MERGED from [:play-services-measurement-base-16.3.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/a7c37b074a80a215e39f961c9ca46f63/jetified-play-services-measurement-base-16.3.0/AndroidManifest.xml:5:5-44
+MERGED from [:play-services-measurement-sdk-api-16.3.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/087da12218569981f60c7298c6d40ae4/jetified-play-services-measurement-sdk-api-16.3.0/AndroidManifest.xml:20:5-44
+MERGED from [:play-services-measurement-sdk-api-16.3.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/087da12218569981f60c7298c6d40ae4/jetified-play-services-measurement-sdk-api-16.3.0/AndroidManifest.xml:20:5-44
+INJECTED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:6:5-9:178
+INJECTED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:6:5-9:178
+	tools:overrideLibrary
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:6:5-9:178
+	android:targetSdkVersion
+		INJECTED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:6:5-9:178
+		INJECTED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:6:5-9:178
+		INJECTED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:12:5-67
+MERGED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:18:5-67
+MERGED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:18:5-67
+MERGED from [:play-services-ads-lite-17.2.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/7d3540de93d219e2c4132f5203b04324/jetified-play-services-ads-lite-17.2.0/AndroidManifest.xml:23:5-67
+MERGED from [:play-services-ads-lite-17.2.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/7d3540de93d219e2c4132f5203b04324/jetified-play-services-ads-lite-17.2.0/AndroidManifest.xml:23:5-67
+MERGED from [:play-services-measurement-sdk-api-16.3.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/087da12218569981f60c7298c6d40ae4/jetified-play-services-measurement-sdk-api-16.3.0/AndroidManifest.xml:23:5-67
+MERGED from [:play-services-measurement-sdk-api-16.3.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/087da12218569981f60c7298c6d40ae4/jetified-play-services-measurement-sdk-api-16.3.0/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:12:22-72
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:15:5-75
+MERGED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:19:5-75
+MERGED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:19:5-75
+	android:name
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:15:22-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:16:5-79
+MERGED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:13:5-79
+MERGED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:13:5-79
+MERGED from [:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:12:5-79
+MERGED from [:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:12:5-79
+MERGED from [:play-services-ads-lite-17.2.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/7d3540de93d219e2c4132f5203b04324/jetified-play-services-ads-lite-17.2.0/AndroidManifest.xml:24:5-79
+MERGED from [:play-services-ads-lite-17.2.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/7d3540de93d219e2c4132f5203b04324/jetified-play-services-ads-lite-17.2.0/AndroidManifest.xml:24:5-79
+MERGED from [:play-services-measurement-sdk-api-16.3.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/087da12218569981f60c7298c6d40ae4/jetified-play-services-measurement-sdk-api-16.3.0/AndroidManifest.xml:24:5-79
+MERGED from [:play-services-measurement-sdk-api-16.3.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/087da12218569981f60c7298c6d40ae4/jetified-play-services-measurement-sdk-api-16.3.0/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:16:22-78
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:17:5-81
+MERGED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:14:5-81
+MERGED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:14:5-81
+	android:name
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:17:22-80
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:18:5-76
+	android:name
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:18:22-65
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:19:5-81
+	android:name
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:19:22-65
+uses-permission#android.permission.REQUEST_INSTALL_PACKAGES
+ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:20:5-83
+	android:name
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:20:5-83
+uses-permission#android.permission.GET_TASKS
+ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:22:5-68
+	android:name
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:22:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:25:5-68
+MERGED from [:play-services-measurement-sdk-api-16.3.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/087da12218569981f60c7298c6d40ae4/jetified-play-services-measurement-sdk-api-16.3.0/AndroidManifest.xml:25:5-68
+MERGED from [:play-services-measurement-sdk-api-16.3.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/087da12218569981f60c7298c6d40ae4/jetified-play-services-measurement-sdk-api-16.3.0/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:25:22-75
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:23:5-29:79
+	android:name
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:24:9-40
+uses-permission#android.permission.RECEIVE_USER_PRESENT
+ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:31:9-32:79
+	android:name
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:32:13-61
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:30:9-33:78
+	android:name
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:31:13-61
+uses-permission#android.permission.EXPAND_STATUS_BAR
+ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:33:9-34:76
+	android:name
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:34:13-50
+application
+ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:42:9-195:19
+MERGED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:21:5-125:19
+MERGED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:21:5-125:19
+MERGED from [:circleimageview-2.2.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/d84f64b3526b5be6d97c0666b962bf5b/jetified-circleimageview-2.2.0/AndroidManifest.xml:9:5-20
+MERGED from [:circleimageview-2.2.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/d84f64b3526b5be6d97c0666b962bf5b/jetified-circleimageview-2.2.0/AndroidManifest.xml:9:5-20
+MERGED from [:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:15:5-54:19
+MERGED from [:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:15:5-54:19
+MERGED from [androidx.core:core:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/86c0f73367f9e8eb0b08b1e1263d56f9/core-1.0.0/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/86c0f73367f9e8eb0b08b1e1263d56f9/core-1.0.0/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/2060ee000b9181259ae6df3ad6c122b2/versionedparcelable-1.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/2060ee000b9181259ae6df3ad6c122b2/versionedparcelable-1.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [:mopub-sdk-base-5.8.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/a913959bc869901f8b723d346fb51108/jetified-mopub-sdk-base-5.8.0/AndroidManifest.xml:11:5-20
+MERGED from [:mopub-sdk-base-5.8.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/a913959bc869901f8b723d346fb51108/jetified-mopub-sdk-base-5.8.0/AndroidManifest.xml:11:5-20
+MERGED from [:mopub-sdk-banner-5.8.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/34624b445c16ca113c6cae1317136258/jetified-mopub-sdk-banner-5.8.0/AndroidManifest.xml:11:5-20
+MERGED from [:mopub-sdk-banner-5.8.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/34624b445c16ca113c6cae1317136258/jetified-mopub-sdk-banner-5.8.0/AndroidManifest.xml:11:5-20
+MERGED from [:mopub-sdk-interstitial-5.8.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/e5255876d7f3c371213f331176ffb764/jetified-mopub-sdk-interstitial-5.8.0/AndroidManifest.xml:11:5-20
+MERGED from [:mopub-sdk-interstitial-5.8.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/e5255876d7f3c371213f331176ffb764/jetified-mopub-sdk-interstitial-5.8.0/AndroidManifest.xml:11:5-20
+MERGED from [:mopub-sdk-rewardedvideo-5.8.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/ee8bbba2a57226eace1b57f56c5f4693/jetified-mopub-sdk-rewardedvideo-5.8.0/AndroidManifest.xml:11:5-20
+MERGED from [:mopub-sdk-rewardedvideo-5.8.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/ee8bbba2a57226eace1b57f56c5f4693/jetified-mopub-sdk-rewardedvideo-5.8.0/AndroidManifest.xml:11:5-20
+MERGED from [:play-services-ads-base-17.2.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/384b9285bd3b8d7c76da548087df79fd/jetified-play-services-ads-base-17.2.0/AndroidManifest.xml:7:5-20
+MERGED from [:play-services-ads-base-17.2.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/384b9285bd3b8d7c76da548087df79fd/jetified-play-services-ads-base-17.2.0/AndroidManifest.xml:7:5-20
+MERGED from [:play-services-ads-identifier-16.0.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/85b6aee654e6d8c559424f0e541637d0/jetified-play-services-ads-identifier-16.0.0/AndroidManifest.xml:22:5-20
+MERGED from [:play-services-ads-identifier-16.0.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/85b6aee654e6d8c559424f0e541637d0/jetified-play-services-ads-identifier-16.0.0/AndroidManifest.xml:22:5-20
+MERGED from [:play-services-ads-lite-17.2.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/7d3540de93d219e2c4132f5203b04324/jetified-play-services-ads-lite-17.2.0/AndroidManifest.xml:26:5-40:19
+MERGED from [:play-services-ads-lite-17.2.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/7d3540de93d219e2c4132f5203b04324/jetified-play-services-ads-lite-17.2.0/AndroidManifest.xml:26:5-40:19
+MERGED from [:play-services-basement-16.0.1:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/23e46b961e837bf1e3e0d8338b6363ae/jetified-play-services-basement-16.0.1/AndroidManifest.xml:22:5-26:19
+MERGED from [:play-services-basement-16.0.1:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/23e46b961e837bf1e3e0d8338b6363ae/jetified-play-services-basement-16.0.1/AndroidManifest.xml:22:5-26:19
+MERGED from [:play-services-gass-17.2.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/dd7c931a1e493e6c43ca457ab138996c/jetified-play-services-gass-17.2.0/AndroidManifest.xml:7:5-20
+MERGED from [:play-services-gass-17.2.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/dd7c931a1e493e6c43ca457ab138996c/jetified-play-services-gass-17.2.0/AndroidManifest.xml:7:5-20
+MERGED from [:play-services-measurement-base-16.3.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/a7c37b074a80a215e39f961c9ca46f63/jetified-play-services-measurement-base-16.3.0/AndroidManifest.xml:7:5-20
+MERGED from [:play-services-measurement-base-16.3.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/a7c37b074a80a215e39f961c9ca46f63/jetified-play-services-measurement-base-16.3.0/AndroidManifest.xml:7:5-20
+MERGED from [:play-services-measurement-sdk-api-16.3.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/087da12218569981f60c7298c6d40ae4/jetified-play-services-measurement-sdk-api-16.3.0/AndroidManifest.xml:27:5-28:19
+MERGED from [:play-services-measurement-sdk-api-16.3.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/087da12218569981f60c7298c6d40ae4/jetified-play-services-measurement-sdk-api-16.3.0/AndroidManifest.xml:27:5-28:19
+	android:label
+		ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:22:9-41
+	android:appComponentFactory
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:42:9-195:19
+		REJECTED from [androidx.core:core:1.0.0] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/86c0f73367f9e8eb0b08b1e1263d56f9/core-1.0.0/AndroidManifest.xml:22:18-86
+	tools:ignore
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:42:9-195:19
+	android:icon
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:42:9-195:19
+	android:allowBackup
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:42:9-195:19
+	android:theme
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:76:13-48
+	android:networkSecurityConfig
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:42:9-195:19
+	tools:replace
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:42:9-195:19
+	android:usesCleartextTraffic
+		ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:23:9-44
+	android:name
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:43:13-54
+activity#com.union_test.toutiao.activity.NativeWaterfallActivity
+ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:50:9-15
+	android:screenOrientation
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:50:9-15
+	android:configChanges
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:50:9-15
+	android:name
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:50:9-15
+activity#com.union_test.toutiao.activity.MainActivity
+ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:54:9-56:20
+	android:screenOrientation
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:54:9-56:20
+	android:launchMode
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:54:9-56:20
+	android:configChanges
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:56:13-68
+	android:name
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:55:13-58
+activity#com.union_test.toutiao.activity.NativeBannerActivity
+ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:58:9-60:52
+	android:screenOrientation
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:58:9-60:52
+	android:configChanges
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:60:13-68
+	android:name
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:59:13-63
+activity#com.union_test.toutiao.activity.FeedListActivity
+ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:62:9-64:52
+	android:screenOrientation
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:62:9-64:52
+	android:configChanges
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:64:13-68
+	android:name
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:63:13-57
+activity#com.union_test.toutiao.activity.AllTestToolActivity
+ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:67:9-68:52
+	android:screenOrientation
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:67:9-68:52
+	android:configChanges
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:67:9-68:52
+	android:name
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:68:13-61
+activity#com.union_test.toutiao.activity.IpPortToolActivity
+ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:71:9-72:52
+	android:screenOrientation
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:71:9-72:52
+	android:configChanges
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:71:9-72:52
+	android:name
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:72:13-52
+activity#com.union_test.toutiao.activity.FeedRecyclerActivity
+ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:76:17-52
+	android:screenOrientation
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:76:17-52
+	android:configChanges
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:76:17-52
+	android:name
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:76:17-52
+activity#com.union_test.toutiao.activity.NativeInteractionActivity
+ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:79:9-80:52
+	android:screenOrientation
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:79:9-80:52
+	android:configChanges
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:79:9-80:52
+	android:name
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:79:9-80:52
+activity#com.union_test.toutiao.activity.RewardVideoActivity
+ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:83:9-84:52
+	android:screenOrientation
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:83:9-84:52
+	android:configChanges
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:83:9-84:52
+	android:name
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:84:13-68
+activity#com.union_test.toutiao.activity.FullScreenVideoActivity
+ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:88:9-89:52
+	android:screenOrientation
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:88:9-89:52
+	android:configChanges
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:88:9-89:52
+	android:name
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:89:13-59
+activity#com.union_test.toutiao.activity.SplashActivity
+ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:94:9-101:20
+	android:screenOrientation
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:98:13-49
+	android:configChanges
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:96:13-74
+	android:theme
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:94:9-101:20
+	android:name
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:95:13-63
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:94:9-99:29
+action#android.intent.action.MAIN
+ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:94:9-97:69
+	android:name
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:95:13-63
+category#android.intent.category.LAUNCHER
+ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:97:9-98:77
+	android:name
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:97:9-98:77
+activity#com.union_test.toutiao.activity.DrawNativeVideoActivity
+ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:106:9-108:20
+	android:screenOrientation
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:106:9-108:20
+	android:configChanges
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:106:9-108:20
+	android:name
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:107:13-70
+activity#com.union_test.toutiao.activity.DrawNativeExpressVideoActivity
+ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:111:13-114:20
+	android:screenOrientation
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:111:13-114:20
+	android:configChanges
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:111:13-114:20
+	android:name
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:112:17-67
+activity#com.union_test.toutiao.activity.NativeExpressActivity
+ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:114:9-120:20
+	android:screenOrientation
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:114:9-120:20
+	android:configChanges
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:114:9-120:20
+	android:name
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:115:13-80
+activity#com.union_test.toutiao.activity.NativeExpressListActivity
+ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:126:9-51
+	android:screenOrientation
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:126:9-51
+	android:windowSoftInputMode
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:126:9-51
+	android:configChanges
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:126:9-51
+	android:name
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:126:19-74
+activity#com.union_test.toutiao.activity.InteractionExpressActivity
+ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:129:9-131:20
+	android:screenOrientation
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:129:9-131:20
+	android:configChanges
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:129:9-131:20
+	android:name
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:129:9-131:20
+activity#com.union_test.toutiao.activity.BannerExpressActivity
+ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:130:9-137:20
+	android:screenOrientation
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:134:13-49
+	android:configChanges
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:132:13-74
+	android:name
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:131:13-62
+service#com.union_test.toutiao.service.AppDownloadService
+ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:152:9-154:63
+	android:name
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:153:13-57
+service#com.locker.service.TraceService
+ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:155:9-157:67
+	android:name
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:156:13-61
+service#com.locker.service.LockerService
+ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:161:9-162:39
+	android:enabled
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:161:9-162:39
+	android:exported
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:161:9-162:39
+	android:name
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:162:13-69
+receiver#com.locker.receiver.BootCompleteReceiver
+ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:163:9-169:20
+	android:name
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:164:13-72
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:163:9-168:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:166:9-79
+	android:name
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:166:19-94
+activity#com.locker.activity.LockerActivity
+ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:178:1-73
+	android:screenOrientation
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:178:1-73
+	android:launchMode
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:178:1-73
+	android:hardwareAccelerated
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:178:1-73
+	android:windowSoftInputMode
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:178:1-73
+	android:configChanges
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:178:1-73
+	android:theme
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:178:1-73
+	android:name
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:178:1-73
+activity#com.union_test.toutiao.activity.PlayableToolActivity
+ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:183:9-15
+	android:screenOrientation
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:183:9-15
+	android:launchMode
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:183:9-15
+	android:configChanges
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:183:9-15
+	android:name
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:183:9-15
+activity#com.mopub.actiivity.MopubRewardedVideoActivity
+ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:182:9-184:83
+	android:name
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:183:13-58
+activity#com.mopub.actiivity.MopubFullVideoActivity
+ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:185:1-79
+	android:name
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:185:1-79
+activity#com.mopub.actiivity.MopubBannerActivity
+ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:185:1-75
+	android:screenOrientation
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:185:1-75
+	android:windowSoftInputMode
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:185:1-75
+	android:configChanges
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:185:1-75
+	android:name
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:185:1-75
+activity#com.mopub.actiivity.MopubInterstitialActivity
+ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:185:1-82
+	android:name
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:185:1-82
+activity#com.union_test.toutiao.activity.AdapterMopubActivity
+ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:185:5-187:20
+	android:name
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:185:5-187:20
+activity#com.mopub.common.MoPubBrowser
+ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:187:1-77
+	android:configChanges
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:187:1-77
+	android:name
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:187:1-77
+activity#com.mopub.mobileads.MoPubActivity
+ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:187:1-77
+	android:configChanges
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:187:1-77
+	android:name
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:187:1-77
+activity#com.mopub.mobileads.MraidActivity
+ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:187:1-77
+	android:configChanges
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:187:1-77
+	android:name
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:187:1-77
+activity#com.mopub.mobileads.RewardedMraidActivity
+ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:187:1-77
+	android:configChanges
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:187:1-77
+	android:name
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:187:1-77
+activity#com.mopub.mobileads.MraidVideoPlayerActivity
+ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:187:1-77
+	android:configChanges
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:187:1-77
+	android:name
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:187:1-77
+activity#com.google.ads.mediation.sample.activity.AdmobBannerActivity
+ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:187:1-97
+	android:name
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:187:1-97
+activity#com.google.ads.mediation.sample.activity.AdmobInterstitialActivity
+ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:187:1-103
+	android:name
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:187:1-103
+activity#com.google.ads.mediation.sample.activity.AdmobFullVideoActivity
+ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:187:1-100
+	android:name
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:187:1-100
+activity#com.union_test.toutiao.activity.AdapterGoogleMainActivity
+ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:184:9-189:72
+	android:name
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:185:13-58
+activity#com.union_test.toutiao.activity.AdapterActivity
+ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:189:1-62
+	android:name
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:189:1-62
+activity#com.google.ads.mediation.sample.activity.AdmobRewardVideoActivity
+ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:189:1-102
+	android:name
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:189:1-102
+activity#com.union_test.toutiao.activity.AllExpressAdActivity
+ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:187:9-192:67
+	android:name
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:188:13-58
+meta-data#com.google.android.gms.ads.APPLICATION_ID
+ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:195:1-69
+	android:value
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:195:1-69
+	android:name
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:195:1-69
+meta-data#com.google.android.gms.version
+ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:195:1-69
+MERGED from [:play-services-basement-16.0.1:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/23e46b961e837bf1e3e0d8338b6363ae/jetified-play-services-basement-16.0.1/AndroidManifest.xml:23:9-25:69
+MERGED from [:play-services-basement-16.0.1:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/23e46b961e837bf1e3e0d8338b6363ae/jetified-play-services-basement-16.0.1/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:195:1-69
+	android:name
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:195:1-69
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:145:9-146:54
+	android:resource
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:145:9-146:54
+	android:name
+		ADDED from /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/src/main/AndroidManifest.xml:146:13-67
+android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:16:5-88
+	android:name
+		ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:16:30-85
+service#com.ss.android.socialbase.downloader.notification.DownloadNotificationService
+ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:24:9-113
+	android:name
+		ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:24:18-110
+service#com.ss.android.socialbase.downloader.downloader.DownloadService
+ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:25:9-99
+	android:name
+		ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:25:18-96
+service#com.ss.android.socialbase.downloader.downloader.IndependentProcessDownloadService
+ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:26:9-32:19
+	android:process
+		ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:28:13-42
+	android:name
+		ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:27:13-109
+intent-filter#action:name:com.ss.android.socialbase.downloader.remote
+ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:29:13-31:29
+action#com.ss.android.socialbase.downloader.remote
+ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:30:17-86
+	android:name
+		ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:30:25-83
+service#com.ss.android.socialbase.downloader.impls.DownloadHandleService
+ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:33:9-100
+	android:name
+		ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:33:18-97
+service#com.ss.android.socialbase.downloader.impls.RetryJobSchedulerService
+ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:41:9-45:72
+	android:enabled
+		ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:43:13-35
+	android:exported
+		ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:44:13-36
+	android:permission
+		ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:45:13-69
+	android:name
+		ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:42:13-95
+service#com.ss.android.socialbase.downloader.downloader.SqlDownloadCacheService
+ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:47:9-107
+	android:name
+		ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:47:18-104
+service#com.ss.android.socialbase.appdownloader.DownloadHandlerService
+ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:49:9-98
+	android:name
+		ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:49:18-95
+activity#com.ss.android.socialbase.appdownloader.view.DownloadTaskDeleteActivity
+ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:65:9-68:59
+	android:launchMode
+		ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:67:13-44
+	android:theme
+		ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:68:13-56
+	android:name
+		ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:66:13-99
+activity#com.ss.android.socialbase.appdownloader.view.JumpUnknownSourceActivity
+ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:69:9-72:59
+	android:launchMode
+		ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:71:13-44
+	android:theme
+		ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:72:13-56
+	android:name
+		ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:70:13-98
+activity#com.ss.android.downloadlib.activity.TTDelegateActivity
+ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:73:9-76:75
+	android:launchMode
+		ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:75:13-44
+	android:theme
+		ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:76:13-72
+	android:name
+		ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:74:13-82
+receiver#com.ss.android.downloadlib.core.download.DownloadReceiver
+ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:78:9-94
+	android:name
+		ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:78:19-91
+activity#com.bytedance.sdk.openadsdk.activity.TTWebPageActivity
+ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:79:9-83:57
+	android:launchMode
+		ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:82:13-42
+	android:windowSoftInputMode
+		ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:83:13-54
+	android:configChanges
+		ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:81:13-74
+	android:name
+		ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:80:13-82
+activity#com.bytedance.sdk.openadsdk.activity.TTPlayableWebPageActivity
+ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:84:9-88:57
+	android:launchMode
+		ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:87:13-42
+	android:windowSoftInputMode
+		ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:88:13-54
+	android:configChanges
+		ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:86:13-74
+	android:name
+		ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:85:13-90
+activity#com.bytedance.sdk.openadsdk.activity.TTVideoWebPageActivity
+ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:89:9-93:57
+	android:launchMode
+		ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:92:13-42
+	android:windowSoftInputMode
+		ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:93:13-54
+	android:configChanges
+		ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:91:13-74
+	android:name
+		ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:90:13-87
+activity#com.bytedance.sdk.openadsdk.activity.TTRewardVideoActivity
+ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:94:9-97:45
+	android:launchMode
+		ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:97:13-42
+	android:configChanges
+		ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:96:13-74
+	android:name
+		ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:95:13-86
+activity#com.bytedance.sdk.openadsdk.activity.TTRewardExpressVideoActivity
+ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:98:9-101:45
+	android:launchMode
+		ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:101:13-42
+	android:configChanges
+		ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:100:13-74
+	android:name
+		ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:99:13-93
+activity#com.bytedance.sdk.openadsdk.activity.TTFullScreenVideoActivity
+ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:102:9-105:45
+	android:launchMode
+		ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:105:13-42
+	android:configChanges
+		ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:104:13-74
+	android:name
+		ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:103:13-90
+activity#com.bytedance.sdk.openadsdk.activity.TTFullScreenExpressVideoActivity
+ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:106:9-109:45
+	android:launchMode
+		ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:109:13-42
+	android:configChanges
+		ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:108:13-74
+	android:name
+		ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:107:13-97
+activity#com.bytedance.sdk.openadsdk.activity.TTDelegateActivity
+ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:110:9-113:75
+	android:launchMode
+		ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:112:13-44
+	android:theme
+		ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:113:13-72
+	android:name
+		ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:111:13-83
+service#com.bytedance.sdk.openadsdk.multipro.aidl.BinderPoolService
+ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:115:9-95
+	android:name
+		ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:115:18-92
+receiver#com.bytedance.embedapplog.collector.Collector
+ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:117:9-120:39
+	android:enabled
+		ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:119:13-35
+	android:exported
+		ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:120:13-36
+	android:name
+		ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:118:13-73
+service#com.bytedance.tea.crash.upload.CrashUploadService
+ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:122:9-124:39
+	android:process
+		ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:124:13-36
+	android:name
+		ADDED from [:open_ad_sdk:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/79f10170220b5f605c7ebf9ca47604d1/jetified-open_ad_sdk/AndroidManifest.xml:123:13-77
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from [:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:11:22-78
+uses-permission#android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS
+ADDED from [:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:13:5-95
+	android:name
+		ADDED from [:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:13:22-92
+receiver#com.xdandroid.hellodaemon.WakeUpReceiver
+ADDED from [:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:16:9-25:20
+	android:process
+		ADDED from [:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:18:13-37
+	android:name
+		ADDED from [:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:17:13-68
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED+action:name:android.intent.action.USER_PRESENT+action:name:com.xdandroid.hellodaemon.CANCEL_JOB_ALARM_SUB
+ADDED from [:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:19:13-24:29
+action#android.intent.action.USER_PRESENT
+ADDED from [:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:20:17-77
+	android:name
+		ADDED from [:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:20:25-74
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:21:17-87
+	android:name
+		ADDED from [:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:21:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:22:17-90
+	android:name
+		ADDED from [:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:22:25-87
+action#com.xdandroid.hellodaemon.CANCEL_JOB_ALARM_SUB
+ADDED from [:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:23:17-89
+	android:name
+		ADDED from [:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:23:25-86
+receiver#com.xdandroid.hellodaemon.WakeUpReceiver$WakeUpAutoStartReceiver
+ADDED from [:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:26:9-39:20
+	android:process
+		ADDED from [:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:27:13-92
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:29:13-32:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:31:17-79
+	android:name
+		ADDED from [:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:31:25-76
+intent-filter#action:name:android.intent.action.PACKAGE_ADDED+action:name:android.intent.action.PACKAGE_REMOVED+data:scheme:package
+ADDED from [:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:33:13-38:29
+action#android.intent.action.PACKAGE_ADDED
+ADDED from [:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:34:17-78
+	android:name
+		ADDED from [:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:34:25-75
+action#android.intent.action.PACKAGE_REMOVED
+ADDED from [:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:35:17-80
+	android:name
+		ADDED from [:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:35:25-77
+data
+ADDED from [:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:37:17-50
+	android:scheme
+		ADDED from [:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:37:23-47
+service#com.xdandroid.hellodaemon.AbsWorkService$WorkNotificationService
+ADDED from [:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:41:9-100
+	android:name
+		ADDED from [:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:41:18-97
+service#com.xdandroid.hellodaemon.JobSchedulerService
+ADDED from [:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:42:9-47:40
+	android:process
+		ADDED from [:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:47:13-37
+	android:enabled
+		ADDED from [:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:44:13-35
+	android:exported
+		ADDED from [:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:45:13-36
+	android:permission
+		ADDED from [:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:46:13-69
+	android:name
+		ADDED from [:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:43:13-73
+service#com.xdandroid.hellodaemon.WatchDogService
+ADDED from [:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:48:9-50:40
+	android:process
+		ADDED from [:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:50:13-37
+	android:name
+		ADDED from [:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:49:13-69
+service#com.xdandroid.hellodaemon.WatchDogService$WatchDogNotificationService
+ADDED from [:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:51:9-53:40
+	android:process
+		ADDED from [:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:53:13-37
+	android:name
+		ADDED from [:hellodaemon-1.2.2:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/f7d4572725795ef10ce180871409d9e7/jetified-hellodaemon-1.2.2/AndroidManifest.xml:52:13-97
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [:play-services-ads-lite-17.2.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/7d3540de93d219e2c4132f5203b04324/jetified-play-services-ads-lite-17.2.0/AndroidManifest.xml:29:9-33:64
+	android:exported
+		ADDED from [:play-services-ads-lite-17.2.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/7d3540de93d219e2c4132f5203b04324/jetified-play-services-ads-lite-17.2.0/AndroidManifest.xml:32:13-37
+	android:configChanges
+		ADDED from [:play-services-ads-lite-17.2.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/7d3540de93d219e2c4132f5203b04324/jetified-play-services-ads-lite-17.2.0/AndroidManifest.xml:31:13-122
+	android:theme
+		ADDED from [:play-services-ads-lite-17.2.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/7d3540de93d219e2c4132f5203b04324/jetified-play-services-ads-lite-17.2.0/AndroidManifest.xml:33:13-61
+	android:name
+		ADDED from [:play-services-ads-lite-17.2.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/7d3540de93d219e2c4132f5203b04324/jetified-play-services-ads-lite-17.2.0/AndroidManifest.xml:30:13-65
+provider#com.google.android.gms.ads.MobileAdsInitProvider
+ADDED from [:play-services-ads-lite-17.2.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/7d3540de93d219e2c4132f5203b04324/jetified-play-services-ads-lite-17.2.0/AndroidManifest.xml:35:9-39:39
+	android:authorities
+		ADDED from [:play-services-ads-lite-17.2.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/7d3540de93d219e2c4132f5203b04324/jetified-play-services-ads-lite-17.2.0/AndroidManifest.xml:37:13-73
+	android:exported
+		ADDED from [:play-services-ads-lite-17.2.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/7d3540de93d219e2c4132f5203b04324/jetified-play-services-ads-lite-17.2.0/AndroidManifest.xml:38:13-37
+	android:initOrder
+		ADDED from [:play-services-ads-lite-17.2.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/7d3540de93d219e2c4132f5203b04324/jetified-play-services-ads-lite-17.2.0/AndroidManifest.xml:39:13-36
+	android:name
+		ADDED from [:play-services-ads-lite-17.2.0:] /Users/gaojunhui/.gradle/caches/transforms-2/files-2.1/7d3540de93d219e2c4132f5203b04324/jetified-play-services-ads-lite-17.2.0/AndroidManifest.xml:36:13-76

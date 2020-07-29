@@ -1,0 +1,4 @@
+# Referenced at /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/merged_manifests/debug/AndroidManifest.xml:38
+-keep class android.support.v4.app.CoreComponentFactory { <init>(); }
+# Referenced at /Users/gaojunhui/AndroidStudioProjects/MyApplication/demo/build/intermediates/merged_manifests/debug/AndroidManifest.xml:38
+-keep class com.union_test.toutiao.DemoApplication { <init>(); }
